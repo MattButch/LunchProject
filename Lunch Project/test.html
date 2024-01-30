@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+     background-color: MintCream;
+     font-family: 'Roboto', sans-serif;
+          }
+     a:hover+div {
+       display: block;
+     }
+     .hover-text {
+       display: none;
+       border: 1px solid #000;
+       height: 30px;
+       width: 290px;
+       margin-left: auto;
+       margin-right: auto;
+     }
+    .meme {
+       background: GhostWhite;
+       width: 30%;
+       padding: 50px 50px 100px 50px;
+       margin: auto;
+       border: 5px solid indigo;
+          }
+      #lemur {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+          }
+      h1 {
+         font-size: 50px;
+         text-align: center;
+         font-family: 'Permanent Marker', cursive;
+          }
+      .container {
+          display: flex;
+          flex-direction: column;
+           }
+    </style>
+  <title>It's Lunch, Leave me Alone</title>
+ </head>
+ <body>
+  <h1>Let's just slow down</h1>
+   <div class="container">  
+    <div class="meme" id="pic"> 
+      <a><img src="https://i.imgur.com/H7GSaGM.jpg" alt="Fuck off" id="lemur"></a>
+      <div class="hover-text">Gear down big rig</div>
+    </div>
+    <div class="meme" id="form-div">
+     <form>
+      <h2>Fill this out and I'll get back to you after lunch</h2>
+      <label for="rank">Rank</label><br>
+      <input type="text" id="rank" name="rank" value="Master Sailor"><br>
+      <label for="lastname">Last Name</label></br>
+      <input type="text" id="lastname" name="lastname" value="White"><br>
+      <label for="YouWant">What do you want?</label></br>
+      <input type="text" id="YouWant" name="YouWant"><br>
+     </form>
+    </div>
+   </div>
+ </body>
+</html>
+  
